@@ -1,7 +1,7 @@
-#Wavelet Denoised-ResNet CNN and LightGBM Method to Predict Forex Rate of Change#
-##There are three parts in the project##
+# Wavelet Denoised-ResNet CNN and LightGBM Method to Predict Forex Rate of Change #
+## There are three parts in the project##
 
-#There are three parts in the project#
+
 1.DataProcessing is about how to deal with the dataset
 
 2.Prediction is about the predict method for the forex change rate
