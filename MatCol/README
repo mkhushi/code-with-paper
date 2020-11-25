@@ -1,0 +1,38 @@
+MatCol is a tool to measure fluorescence signal colocalisation in biological systems
+Author: Matloob Khushi
+Date of last update: 24 Feb 2016
+
+The compiled version of MatCol could be used on the Windows platform  without the need for a licensed version of Matlab, 
+though, a Matlab runtime would be required which is available freely from Mathworks website (https://au.mathworks.com/products/compiler/mcr.html).
+
+This latest release was tested in Matlab 2016b. 
+
+matcol.m file is the main GUI run file.
+
+the command line script matcolcli process all images in a specified folder 
+and write results in 'results.txt' tab delimited file. 
+
+Examples:
+Process a folder with all default parameters.
+On Windows:
+matcolcli('C:\Users\mkhushi\Downloads\MatCol0.94\samplesimages\');
+
+On Linux/Mac:
+matcolcli('/path/images/');
+
+Using all options:
+matcolcli('path\samplesimages\','tmr',2, 'tmg', 2, 'medfilt', [3,3],'wiener', [5,5], 'mincommonpixels', 5, 'roi', 1, 'savemask', 1)
+
+tmr             =   Threshold Mutiplier for red channel, default is 2.
+tmg             =   Threshold Mutiplier for green channel, default is 2.
+medfilt         =   Window for median filter; default is [3,3].
+wiener          =   Window for Wiener filter; default is [5,5].
+mincommonpixels =   Minimum common pixels that must overlap on the red and green channel to report a colocalisation. Default is 1.
+roi             =   Calculate colocalisation for each region of interest (ROI). 
+savemask        =   Automatic ROI is marked from the blue channel. 
+                    Setting this option will save this mask to disk.
+                    Each ROI is labelled with a sequential number with information about
+                    total red & green spots and total number of overlap (colocalisation) found are also writen on the mask image. 
+
+
+
