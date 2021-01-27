@@ -18,3 +18,5 @@ Instruction:
 3. Run the prediction.ipynb block by block
 
 4. If you want to modify the code,you can follow the comments in the ipynb
+
+Citation: Zhao Y and Khushi M. Wavelet Denoised-ResNet CNN and LightGBM Method to Predict Forex Rate of Change. In 2020 IEEE International Conference on Data Mining Workshops (ICDW 2020)
