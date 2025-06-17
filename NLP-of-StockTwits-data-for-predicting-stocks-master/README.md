@@ -7,3 +7,8 @@ Note: The link contains labelled dataset of different combinations which are des
 2. Prep Labelled (binary-previous day): This folder contains labelled dataset for 25 individual companies with binary classification method mentioned in the paper previous day.
 3. Prep Labelled (binary - same day): This folder contains labelled dataset for 25 individual companies with binary classification method mentioned in the paper same day.
 *All the above files have data for more than 10 years of StockTwits which is further combined or divided as per several experimentation for which various excels files are generated for ease if use. FAANG company stocktwits are also placed in separate files.
+
+If you use the date please cite the following paper:
+
+Jaggi, M., Mandal, P., Narang, S., Naseem, U., & Khushi, M. (2021). Text Mining of Stocktwits Data for Predicting Stock Prices. Applied System Innovation, 4(1), 13. https://doi.org/10.3390/asi4010013
+https://www.mdpi.com/2571-5577/4/1/13
